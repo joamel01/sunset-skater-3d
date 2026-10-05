@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="deckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#ffaa00" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+  </defs>
+  <!-- Skateboard Deck tilted -->
+  <rect x="8" y="27" width="48" height="10" rx="5" transform="rotate(-25 32 32)" fill="url(#deckGrad)" stroke="#ffffff" stroke-width="2" />
+  <!-- Grip line -->
+  <line x1="16" y1="32" x2="48" y2="32" transform="rotate(-25 32 32)" stroke="#111111" stroke-width="1.5" stroke-dasharray="2 2" />
+  <!-- Wheels -->
+  <circle cx="16" cy="45" r="4.5" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+  <circle cx="16" cy="45" r="1.5" fill="#ffaa00" />
+  <circle cx="48" cy="30" r="4.5" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+  <circle cx="48" cy="30" r="1.5" fill="#ffaa00" />
+</svg>
